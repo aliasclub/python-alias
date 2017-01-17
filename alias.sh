@@ -26,6 +26,12 @@ alias pyo2dir='python -OO -m compileall'
 
 alias pyclean='rm -rf build/ dist/ *.egg-info/'
 
+# pip install
+alias pipinstall='pip install -i https://pypi.python.org/simple/ --trusted-host pypi.python.org'
+alias pipinstalldouban='pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com'
+alias pipinstalldoubanio='pip install -i http://pypi.doubanio.com/simple --trusted-host pypi.doubanio.com'
+alias pipinstallaliyun='pip install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com'
+
 ######################
 # Simple HTTP Server #
 ######################
