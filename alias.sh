@@ -24,9 +24,12 @@ alias pyo2dir='python -OO -m compileall'
 # PyPI #
 ########
 
+# Uploading PyPI
+alias pydist='python setup.py sdist bdist_wheel'
+alias pyupload='twine upload dist/*'
 alias pyclean='rm -rf build/ dist/ *.egg-info/'
 
-# pip install
+# PIP Install
 alias pipinstall='pip install -i https://pypi.python.org/simple/ --trusted-host pypi.python.org'
 alias pipinstalldouban='pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com'
 alias pipinstalldoubanio='pip install -i http://pypi.doubanio.com/simple --trusted-host pypi.doubanio.com'
