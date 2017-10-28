@@ -34,6 +34,11 @@ alias pipinstalldouban='pip install -i http://pypi.douban.com/simple --trusted-h
 alias pipinstalldoubanio='pip install -i http://pypi.doubanio.com/simple --trusted-host pypi.doubanio.com'
 alias pipinstallaliyun='pip install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com'
 
+#################################
+# Python Code Quality Authority #
+#################################
+alias pep8='pycodestyle'
+
 ######################
 # Simple HTTP Server #
 ######################
